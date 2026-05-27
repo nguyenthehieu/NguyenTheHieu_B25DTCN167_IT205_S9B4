@@ -67,7 +67,7 @@ while True:
                         position = input("Nhập vị trí cần xóa: ").strip()
 
                         if not position.isdigit():
-                            print("Vị trí không hợp lệ!")
+                            print("Vị trí không hợp lệ")
                             continue
 
                         index = int(position) - 1
@@ -77,7 +77,7 @@ while True:
                             print(f"Đã xóa đơn hàng: {deleted_order}")
 
                         else:
-                            print("Không tồn tại đơn hàng ở vị trí này!")
+                            print("Không tồn tại đơn hàng ở vị trí này")
 
                     case "4":
                         break

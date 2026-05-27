@@ -41,11 +41,8 @@ while True:
                     case "1":
                         order_code = input("Nhập mã đơn hàng: ").strip().upper()
                         order_status = input("Nhập trạng thái đơn hàng: ").strip().upper()
-
                         new_order = f"{order_code} - {order_status}"
-
                         order_list.append(new_order)
-
                         print("Thêm đơn hàng thành công!")
 
                     case "2":
@@ -61,7 +58,6 @@ while True:
                             new_code = input("Nhập mã đơn hàng mới: ").strip().upper()
                             new_status = input("Nhập trạng thái mới: ").strip().upper()
                             order_list[index] = f"{new_code} - {new_status}"
-
                             print("Cập nhật đơn hàng thành công!")
 
                         else:
